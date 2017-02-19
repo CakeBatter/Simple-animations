@@ -1,0 +1,153 @@
+/*Animation of square.html*/
+div .box{
+  background-position: center;
+  position: relative;
+}
+div .image3-bottom{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-left: 50%;
+  animation: square1 5s infinite;
+  animation-direction: alternate;
+  -webkit-animation: square1 5s infinite;
+  position: absolute;
+}
+@keyframes square1 {
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 0px; top: -100px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 0px; top: -200px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 0px; top: -300px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 0px; top: -100px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+@-webkit-keyframes square1{
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 0px; top: -100px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 0px; top: -200px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 0px; top: -300px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 0px; top: -100px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+div .image3-top{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-left: 50%;
+  animation: square2 5s infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation: square2 5s infinite;
+  position: absolute;
+
+}
+@keyframes square2 {
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 0px; top: 100px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 0px; top: 200px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 0px; top: 300px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 0px; top: 100px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+@-webkit-keyframes square2{
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 0px; top: 100px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 0px; top: 200px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 0px; top: 300px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 0px; top: 100px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+div .image3-left{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-left: 50%;
+  animation: square3 7s infinite;
+  animation-direction: alternate;
+  -webkit-animation: square3 7s infinite;
+  position: absolute;
+
+}
+@keyframes square3 {
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 100px; top: 0px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 200px; top: 0px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 300px; top: 0px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 100px; top: 0px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+@-webkit-keyframes square3{
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: 100px; top: 0px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: 200px; top: 0px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: 300px; top: 0px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: 100px; top: 0px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+div .image3-right{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-left: 50%;
+  animation: square4 7s infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation: square4 7s infinite;
+  position: absolute;
+
+}
+@keyframes square4 {
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: -100px; top: 0px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: -200px; top: 0px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: -300px; top: 0px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: -100px; top: 0px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+@-webkit-keyframes square4{
+  0%   {background: #468966; transform: rotate(0deg); left: 0px; top: 0px;}
+  20%  {background: #FFF0A5; transform: rotate(180deg); left: -100px; top: 0px;}
+  40%  {background: #FFB03B; transform: rotate(360deg); left: -200px; top: 0px;}
+  60%  {background: #B64926; transform: rotate(720deg); left: -300px; top: 0px;}
+  80%  {background: #8E2800; transform: rotate(360deg); left: -100px; top: 0px;}
+  100% {background: #468966; transform: rotate(180deg); left: 0px; top: 0px;}
+}
+/*End of square.html*/
+
+/*Animation of circle.html*/
+div .image4{
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50%;
+  background-color: white;
+  margin-left: 50%;
+  animation: circle 5s infinite;
+  -webkit-animation: circle 5s infinite;
+  position: absolute;
+}
+@keyframes circle {
+  5%  {background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity:
+    1; transform:scale(10,10) translateX(10px);}
+  15% {background:radial-gradient(circle,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5);opacity: .95; transform: scale(9.5,9.5) translateX(-10px);}
+  25% {background:radial-gradient(circle,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B);opacity: .9; transform: scale(9,9) translateX(10px);}
+  35% {background:radial-gradient(circle,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926);opacity: .8; transform: scale(8,8) translateX(-10px);}
+  45% {background:radial-gradient(circle,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800);opacity: .7; transform: scale(7,7) translateX(10px);}
+  55% {background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity: .6; transform: scale(6,6) translateX(-10px);}
+  65% {background:radial-gradient(circle,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5);opacity: .5; transform: scale(5,5) translateX(10px);}
+  75% {background:radial-gradient(circle,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B);opacity: .4; transform: scale(4,4) translateX(-10px);}
+  85% {background:radial-gradient(circle,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926);opacity: .3; transform: scale(3,3) translateX(10px);}
+  95% {background:radial-gradient(circle,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800);opacity: .2; transform: scale(2,2) translateX(-10px);}
+  100%{background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity: .1; transform: scale(1,1) translateX(0);}
+}
+@webkit-keyframes circle{
+  5%  {background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity:
+    1; transform:scale(10,10) translateX(10px);}
+  15% {background:radial-gradient(circle,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5);opacity: .95; transform: scale(9.5,9.5) translateX(-10px);}
+  25% {background:radial-gradient(circle,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B);opacity: .9; transform: scale(9,9) translateX(10px);}
+  35% {background:radial-gradient(circle,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926);opacity: .8; transform: scale(8,8) translateX(-10px);}
+  45% {background:radial-gradient(circle,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800);opacity: .7; transform: scale(7,7) translateX(10px);}
+  55% {background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity: .6; transform: scale(6,6) translateX(-10px);}
+  65% {background:radial-gradient(circle,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5);opacity: .5; transform: scale(5,5) translateX(10px);}
+  75% {background:radial-gradient(circle,#FFB03B,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B);opacity: .4; transform: scale(4,4) translateX(-10px);}
+  85% {background:radial-gradient(circle,#B64926,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926);opacity: .3; transform: scale(3,3) translateX(10px);}
+  95% {background:radial-gradient(circle,#8E2800,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800);opacity: .2; transform: scale(2,2) translateX(-10px);}
+  100%{background:radial-gradient(circle,#468966,#FFF0A5,#FFB03B,#B64926,#8E2800,#468966);opacity: .1; transform: scale(1,1) translateX(0);}
+}
